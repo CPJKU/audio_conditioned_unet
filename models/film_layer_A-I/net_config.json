@@ -1,0 +1,1 @@
+{"film1": true, "film2": true, "film3": true, "film4": true, "film5": true, "film6": true, "film7": true, "film8": true, "n_encoder_layers": 4, "n_filters_start": 8, "activation": "elu", "spec_out": 128, "dropout": false}

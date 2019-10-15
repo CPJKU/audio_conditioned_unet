@@ -1,0 +1,11 @@
+
+
+# ignore sound font
+*.sf2
+
+# ignore idea files
+.idea
+
+*.py[cod]
+
+

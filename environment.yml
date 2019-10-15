@@ -1,0 +1,26 @@
+name: audio_conditioned_unet
+
+channels:
+  - pytorch
+  - defaults
+
+dependencies:
+  - python=3.7
+  - Cython==0.28.3
+  - matplotlib==2.2.2
+  - numpy==1.16.4 
+  - pytorch=1.1.0
+  - scipy==1.1.0
+  - torchvision=0.3.0
+  - tqdm==4.32.1
+
+  - pip:
+    - madmom==0.16.1 
+    - opencv_python==3.4.3.18
+    - pretty_midi==0.2.8
+    - pysoundfile==0.9.0.post1
+    - pyfluidsynth==1.2.5
+    - python-rtmidi==1.3.0
+    - scikit-learn==0.21.3
+    - tensorboardX==1.8
+
