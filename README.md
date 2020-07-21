@@ -23,7 +23,7 @@ The data used in this paper can be found [*here*](https://zenodo.org/record/3953
 properly (see instructions below) this will be done automatically for you.
 
 ### Videos
-In the folder [*videos*](https://github.com/CPJKU/audio_conditioned_unet/tree/master/videos) you will find several pieces from the test set, 
+In the folder [*videos*](https://github.com/CPJKU/audio_conditioned_unet/tree/ismir-2020/videos) you will find several pieces from the test set, 
 where our best performing model follows an incoming musical performance.
 
 ## Getting Started
