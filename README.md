@@ -52,7 +52,7 @@ This last command will extract the sound font file and download the data.
 ### Software Synthesizer - FluidSynth
 
 Make sure to have [FluidSynth](http://www.fluidsynth.org/) installed as we will use it to synthesize audio from MIDI. To this end we also provide you
- with a piano sound font which you can find in the folder [*audio_conditioned_unet/sound_fonts*](https://github.com/CPJKU/audio_conditioned_unet/tree/master/audio_conditioned_unet/sound_fonts)
+ with a piano sound font which you can find in the folder [*audio_conditioned_unet/sound_fonts*](https://github.com/CPJKU/audio_conditioned_unet/tree/ismir-2020/audio_conditioned_unet/sound_fonts)
 
 ### Check if everything works
 
@@ -78,7 +78,7 @@ To give you an example, if you want to train a model with FiLM layers being acti
 To train the same models as in the paper you can check out the ```run_experiments.sh``` script.
 
 ## Evaluation
-To reproduce the results shown in Table 2, we provide you with our trained models in the folder [*models*](https://github.com/CPJKU/audio_conditioned_unet/tree/master/models).
+To reproduce the results shown in Table 2, we provide you with our trained models in the folder [*models*](https://github.com/CPJKU/audio_conditioned_unet/tree/ismir-2020/models).
 To evaluate a single model on the test set you need to run the following command:
 
 ```python eval_model.py --param_path ../models/<MODEL-FOLDER>/best_model.pt --test_dir ../data/msmd/msmd_test --config configs/msmd.yaml```
