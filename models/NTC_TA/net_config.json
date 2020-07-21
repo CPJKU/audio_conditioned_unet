@@ -1,0 +1,1 @@
+{"film_layers": [2, 3, 4, 5, 6, 7, 8], "n_encoder_layers": 4, "n_filters_start": 8, "rnn_size": 128,  "rnn_layer": 1, "use_lstm": false, "audio_encoder": "CBEncoder",  "spec_enc": 32}

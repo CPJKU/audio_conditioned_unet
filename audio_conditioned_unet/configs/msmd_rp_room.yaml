@@ -1,0 +1,9 @@
+
+spectrogram_params: {'sample_rate': 22050, 'frame_size': 2048, 'fps': 20, 'pad': 40}
+gt_width: 10
+
+real_perf: True
+tempo_factors: ['room']
+
+sf_path: 'sound_fonts/grand-piano-YDP-20160804.sf2'
+
