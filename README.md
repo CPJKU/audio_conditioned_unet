@@ -9,7 +9,7 @@ This repository contains the corresponding code for our paper
 *In Proceedings of the 21st International Society for Music Information Retrieval Conference*, 2020
 
 
-which is an extension of our previous work (which you can find by switching to the ... branch):
+which is an extension of our previous work (which you can find by switching to the [*worms-2019*](https://github.com/CPJKU/audio_conditioned_unet/tree/worms-2019) branch):
 
 >[Henkel F.](https://www.jku.at/en/institute-of-computational-perception/about-us/people/florian-henkel/),
 >[Kelz R.](https://www.jku.at/en/institute-of-computational-perception/about-us/people/rainer-kelz/), and
