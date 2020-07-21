@@ -8,7 +8,7 @@ This repository contains the code for the paper
 The data used in this paper can be found in the folder [*data*](https://github.com/CPJKU/audio_conditioned_unet/tree/master/data)
 
 ### Videos
-In the folder [*videos*](https://github.com/CPJKU/audio_conditioned_unet/tree/master/videos) you will find several pieces from the test set, where our model predicts matching 
+In the folder [*videos*](https://github.com/CPJKU/audio_conditioned_unet/tree/worms-2019/videos) you will find several pieces from the test set, where our model predicts matching 
 positions in the score.
 
 ## Getting Started
