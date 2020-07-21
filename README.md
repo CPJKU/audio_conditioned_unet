@@ -37,7 +37,7 @@ This last command will extract the sound font file and the data.
 ### Software Synthesizer - FluidSynth
 
 Make sure to have [FluidSynth](http://www.fluidsynth.org/) installed as we will use it to synthesize audio from MIDI. To this end we also provide you
- with a piano sound font which you can find in the folder [*audio_conditioned_unet/sound_fonts*](https://github.com/CPJKU/audio_conditioned_unet/tree/worms-2019W/audio_conditioned_unet/sound_fonts)
+ with a piano sound font which you can find in the folder [*audio_conditioned_unet/sound_fonts*](https://github.com/CPJKU/audio_conditioned_unet/tree/worms-2019/audio_conditioned_unet/sound_fonts)
 
 ### Check if everything works
 
