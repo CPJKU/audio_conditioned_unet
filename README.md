@@ -5,7 +5,7 @@ This repository contains the code for the paper
  [*Audio-Conditioned U-Net for Position Estimation in Full Sheet Images*](https://arxiv.org/pdf/1910.07254.pdf).
 
 ### Data
-The data used in this paper can be found in the folder [*data*](https://github.com/CPJKU/audio_conditioned_unet/tree/master/data)
+The data used in this paper can be found in the folder [*data*](https://github.com/CPJKU/audio_conditioned_unet/tree/worms-2019/data)
 
 ### Videos
 In the folder [*videos*](https://github.com/CPJKU/audio_conditioned_unet/tree/worms-2019/videos) you will find several pieces from the test set, where our model predicts matching 
@@ -37,7 +37,7 @@ This last command will extract the sound font file and the data.
 ### Software Synthesizer - FluidSynth
 
 Make sure to have [FluidSynth](http://www.fluidsynth.org/) installed as we will use it to synthesize audio from MIDI. To this end we also provide you
- with a piano sound font which you can find in the folder [*audio_conditioned_unet/sound_fonts*](https://github.com/CPJKU/audio_conditioned_unet/tree/master/audio_conditioned_unet/sound_fonts)
+ with a piano sound font which you can find in the folder [*audio_conditioned_unet/sound_fonts*](https://github.com/CPJKU/audio_conditioned_unet/tree/worms-2019W/audio_conditioned_unet/sound_fonts)
 
 ### Check if everything works
 
@@ -62,7 +62,7 @@ To give you an example, if you want to train a model with FiLM layers being acti
 ``` python worms_experiment.py --train_set ../data/nottingham_train --val_set ../data/nottingham_valid --film3 --film4 --film5 --film6 --film7```
 
 ## Evaluation
-To reproduce the results shown in Table II, we provide you with our trained models in the folder [*models*](https://github.com/CPJKU/audio_conditioned_unet/tree/master/models).
+To reproduce the results shown in Table II, we provide you with our trained models in the folder [*models*](https://github.com/CPJKU/audio_conditioned_unet/tree/worms-2019/models).
 To evaluate a single model on the test set you need to run the following command:
 
 ``` python worms_evaluation.py --param_path ../models/<MODEL-FOLDER>/best_model.pt --test_set ../data/nottingham_test```
