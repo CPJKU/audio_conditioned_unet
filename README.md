@@ -5,7 +5,7 @@ This repository contains the corresponding code for our paper
 >[Henkel F.](https://www.jku.at/en/institute-of-computational-perception/about-us/people/florian-henkel/), 
 >[Kelz R.](https://www.jku.at/en/institute-of-computational-perception/about-us/people/rainer-kelz/), and 
 >[Widmer G.](https://www.jku.at/en/institute-of-computational-perception/about-us/people/gerhard-widmer/) <br>
-"[Learning to Read and Follow Music in Complete Score Sheet Images]()".<br>
+"[Learning to Read and Follow Music in Complete Score Sheet Images](https://arxiv.org/pdf/2007.10736.pdf)".<br>
 *In Proceedings of the 21st International Society for Music Information Retrieval Conference*, 2020
 
 
