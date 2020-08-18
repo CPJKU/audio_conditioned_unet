@@ -202,15 +202,3 @@ def center_of_mass(input):
     result = torch.cat([((input * grids[dir]).sum() / normalizer).unsqueeze(0) for dir in range(len(grids))])
 
     return result
-
-
-class dummy_context(object):
-
-    def __enter__(self):
-        pass
-
-    def __exit__(self, *args):
-        pass
-
-    def __call__(self, func):
-        pass

@@ -7,7 +7,7 @@ import yaml
 
 import numpy as np
 
-from audio_conditioned_unet.utils import dice_loss, load_score, load_performance, center_of_mass, dummy_context
+from audio_conditioned_unet.utils import dice_loss, load_score, load_performance, center_of_mass
 from multiprocessing import Pool
 from random import shuffle
 from scipy import interpolate
@@ -379,7 +379,7 @@ def iterate_dataset(network, optimizer, dataset,  batch_size, seq_len, train=Tru
 
         if bs > 1 or not train:
 
-            with (dummy_context() if train else torch.no_grad()):
+            with torch.set_grad_enabled(train):
                 model_return = network(score=score_batch, perf=perf_batch, hidden=hidden)
                 pred = model_return['segmentation']
                 hidden = model_return['hidden']
