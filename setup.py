@@ -38,5 +38,5 @@ DATA_PATH = "./data/nottingham_npz.zip"
 if os.path.exists(DATA_PATH):
     print("Extracting data %s ..." % DATA_PATH)
     zip_ref = zipfile.ZipFile(DATA_PATH, 'r',  zipfile.ZIP_DEFLATED)
-    zip_ref.extractall(os.path.dirname("./data/"))
+    zip_ref.extractall(os.path.dirname(DATA_PATH))
     zip_ref.close()
