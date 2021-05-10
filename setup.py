@@ -48,5 +48,5 @@ if not os.path.exists(DATA_PATH):
 
     print(f"Extracting data {DATA_PATH} ...")
     zip_ref = zipfile.ZipFile(DATA_PATH, 'r',  zipfile.ZIP_DEFLATED)
-    zip_ref.extractall(os.path.dirname("./data"))
+    zip_ref.extractall(os.path.dirname(DATA_PATH))
     zip_ref.close()
