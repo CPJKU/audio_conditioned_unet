@@ -188,8 +188,8 @@ if __name__ == '__main__':
         if not args.no_save:
             torch.save(network.state_dict(), os.path.join(train_parameters['dump_path'], "latest_model.pt".format(epoch)))
 
-        tr_f1 = 2*(tr_prec*tr_rec)/(tr_prec + tr_rec) if tr_prec > 0 and tr_prec > 0 else 0
-        val_f1 = 2*(val_prec*val_rec)/(val_prec + val_rec) if val_prec > 0 and val_prec > 0 else 0
+        tr_f1 = 2*(tr_prec*tr_rec)/(tr_prec + tr_rec) if tr_prec > 0 and tr_rec > 0 else 0
+        val_f1 = 2*(val_prec*val_rec)/(val_prec + val_rec) if val_prec > 0 and val_rec > 0 else 0
 
         log_writer.add_scalar('training/loss', tr_loss, epoch)
         log_writer.add_scalar('training/precision', tr_prec, epoch)
